@@ -1,1 +1,1 @@
-Учебный макет Barbershop Borodinski
+Учебный макет <a href="http://AntonZinchenko.github.io/barbershop/index.html">Barbershop Borodinski</a>
