@@ -5,32 +5,28 @@ body {
     padding: 0;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.container {
-    width: 940px;
-    margin: 0 auto;
-    padding: 0 10px;
-}
-
 .main-header {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 60px;
 }
 
 .main-navigation {
-    float: left;
     width: 780px;
-    min-height: 70px;
+    margin-right: 20px;
+    margin-left: auto;
 }
 
 .user-block {
-    float: right;
     width: 140px;
-    min-height: 70px;
+    margin-right: auto;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .index-logo {
@@ -42,58 +38,59 @@ body {
 }
 
 .features {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 80px;
 }
 
-.feature-item {
-    float: left;
-    width: 300px;
-    min-height: 175px;
-    margin-right: 20px;
+.features::before {
+    display: none;
 }
 
-.feature-item:last-child {
-    margin-right: 0;
+.feature-item {
+    width: 300px;
 }
 
 .index-content {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 35px;
     padding: 50px 80px;
 }
 
+.index-content::before {
+    display: none;
+}
+
 .index-content-left {
-    float: left;
     width: 380px;
-    min-height: 330px;
 }
 
 .index-content-right {
-    float: right;
     width: 300px;
-    min-height: 330px;
 }
 
 .main-footer {
+    display: flex;
     margin-top: 65px;
     padding-top: 60px;
     padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer-contacts {
-    float: left;
     width: 320px;
+    margin-left: auto;
     margin-right: 60px;
-    min-height: 90px;
 }
 
 .footer-social {
-    float: left;
     width: 180px;
-    min-height: 90px;
 }
 
 .footer-copyright {
-    float: right;
-    width: 180px;
-    min-height: 90px;
+    width: 160px;
+    margin-left: 220px;
+    margin-right: auto;
 }
